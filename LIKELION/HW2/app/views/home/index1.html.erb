@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <br><br>
+      <div class="container">
+        <form action="showEmail" method="POST">
+          <div class="form-group">
+            <label for="exampleInputEmail1">보내는 사람</label>
+            <input name='text1' type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">당신의 이메일 주소를 작성해 주세요!</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">받는 사람</label>
+            <input name='text3' type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">받는 사람의 이메일 주소를 작성해 주세요!</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">이메일 내용</label>
+            <textarea name = 'text2' class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <small id="emailHelp" class="form-text text-muted">보낼 이메일 내용을 입력해 주세요!</small>
+          </div>
+          <button type="submit" class="btn btn-primary">보내기</button>
+        </form>
+      </div>
+  </body>
+</html>
